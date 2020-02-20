@@ -30,7 +30,7 @@ class Navigation extends Component {
             <img src={require(`../../assets/logo.svg`)} alt="Upcount" />
           </Link>
         </div>
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+        <Menu theme="dark" mode="inline" defaultSelectedKeys={['invoices']}>
           <Menu.Item key="invoices">
             <Link to="/invoices/">
               <div>
